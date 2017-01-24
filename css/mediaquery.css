@@ -1,0 +1,256 @@
+
+/* AHY CONSULTING MEDIAQUERY CSS
+*  THIS FILE CONTAINS MEDIA QUERY CODE
+*  DATED 31ST OCTOBER 2016
+*
+*/
+
+/*Hide on mobile landscape mode Starts*/
+@media screen and (max-width: 736px) and (min-width: 450px) and (orientation: landscape){
+  .landscape-hide{visibility: visible;}
+}
+/*ends*/
+
+
+
+/*Below 768 starts*/
+@media only screen and (max-width: 768px){
+  /*Header Starts*/
+    .nav-logo{margin: 0px;}
+  /*Header Ends*/
+  /*Hide on mobile*/
+    .hide-mobile{display: none !important;}
+    .visible-mobile{display: block !important;}
+  /*Hide on Mobile*/
+  /*About page starts*/
+  /*Section 1 starts*/
+    span.owner-description{font-size: 0.8em;}
+
+  /*Section 1 ends*/
+
+  /*Section 2 starts*/
+  /*Section 2 ends*/
+
+  /*About page ends*/
+
+  /*Contact-page starts*/
+  .form-heading{font-size: 25px;}
+  section#contact-form-wrapper {
+    padding: 25px;
+    overflow-y: scroll;
+    position: relative;
+    height: 87vh;
+    /*border: 1px solid transparent;*/
+  }
+  .form-hire-us, .form-say-hey{
+
+  }
+  input, select, textarea{
+    font-size: 9px;
+  }
+  /*Contact-page ends*/
+
+  /*News page starts*/
+  .testimonail-slide .item{
+    max-height: 50%;
+    top:2%;
+    font-size: 1.3em;
+    max-width: 70%;
+  }
+
+  .news-slide .item{
+    max-height: 50%;
+    max-width: 85%;
+    font-size: 1em;
+  }
+
+  .achievement-image img{
+    max-width: 50px;
+  }
+  /*News page ends*/
+}
+/*Below 768 Ends*/
+
+
+/*Between 700px and 768px starts*/
+@media only screen and (min-width:700px) and (max-width:768px){
+  /*About page mobile starts*/
+    .header-section{margin-top: 20px;}
+    .header-section .heading-text{font-size: 5em;}
+    hr.mobile-separator{border: 2px solid #eee;}
+    .header-section .slug-text{font-size: 2em;}
+    .description-detail{font-size: 1.9em;}
+    .description-text{padding: 0 30px; font-size: 2.5em;}
+  /*About page mobile ends*/
+
+  /*News page starts*/
+  .testimonail-slide .item{
+    max-height: 30%;
+    top:2%;
+    font-size: 2.3em;
+
+  }
+  .news-slide .item{
+    max-height: 55%;
+    max-width: 80%;
+    font-size: 2em;
+  }
+
+  .achievement-image img{
+    max-width: 100px;
+  }
+  /*News page ends*/
+
+}
+/*Between 700px and 768px ends*/
+
+
+
+
+
+/*Ipad landscape*/
+@media screen and (max-width: 1024px) and (min-width: 760px){
+  /*.about-video{height: 100%; width: auto;}*/
+}
+/*Ipad landscape ends*/
+
+
+/*Between 768 and 990 Starts*/
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+  /*About page starts*/
+  /*Section 1 starts*/
+    /*span.owner-description{font-size: 0.8em;}*/
+    span.owner-name{font-size:2em;line-height:300px;}
+    .management-text{font-size: 2.5em}
+    .circle{width:300px; height:300px;}
+    .social-circle{width:100px; height:100px;font-size:3em;}
+    .left-circle{left:10%;}
+    .right-circle{right: 10%;}
+    /*.social-circle.display-right{left:68%;}
+    .social-circle.display-left{right:68%;}*/
+  /*Section 1 ends*/
+
+  /*Section 2 starts*/
+    .text-wrapper .bottom-text{font-size:1em;}
+    .top-text:before, .text-section:before{height:20%;}
+  /*Section 2 ends*/
+
+  /*About page ends*/
+
+  /*Work page start */
+  .work-circle{width:300px; height:300px;}
+  span.work-owner-name{font-size:2em;line-height:300px;}
+  /*Work page end */
+
+  /*News page starts*/
+  .news-slide .item{
+    font-size: 1.3em;
+  }
+  /*News page ends*/
+
+}
+/*Between 768 and 990 Ends*/
+
+/*Between 990 and 1200 Starts*/
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /*About page starts*/
+  /*Section 1 starts*/
+    span.owner-name{line-height:280px;}
+    span.owner-description{font-size: 1em;}
+    .management-text{font-size: 3em}
+    .circle{width:280px; height:280px;}
+    .social-circle{width:95px; height:95px;font-size:3.5em;}
+  /*Section 1 ends*/
+
+  /*Section 2 starts*/
+   .text-wrapper .bottom-text{font-size:1.2em;}
+  /*Section 2 ends*/
+
+  /*About page ends*/
+
+  /*Work page start */
+    .work-circle{width:280px; height:280px;}
+    span.work-owner-name{line-height:280px;}
+  /*Work page end */
+
+  /*News page starts*/
+  .news-slide .item{
+    font-size: 1.4em;
+  }
+  /*News page ends*/
+
+}
+/*Between 990 and 1200 Ends*/
+
+/*Between 1500 and 2000 Starts*/
+@media only screen and (min-width: 1501px) and (max-width:2000px){
+  /*About page starts*/
+  /*Section 1 starts*/
+    span.owner-description{font-size: 1.2em;}
+    span.owner-name{line-height: 400px;font-size: 3em;}
+    .management-text{font-size: 4em}
+    .circle{width: 400px; height: 400px;}
+    .social-circle{width: 130px; height: 130px;font-size: 5em;}
+    .close-circle{width: 60px; height: 60px;}
+  /*Section 1 ends*/
+
+  /*Section 2 starts*/
+  .text-wrapper .bottom-text{font-size: 1.8em;}
+  span.slug{font-size: 2em;}
+  span.heading{font-size: 9em;}
+  /*Section 2 ends*/
+
+  /*About page ends*/
+  /*Work page start */
+  .work-circle{width: 400px; height: 400px;}
+  span.work-owner-name{line-height: 400px;font-size: 3em;}
+  /*Work page end */
+
+  /*News page starts*/
+  .news-slide .item{
+    font-size: 2.2em;
+  }
+
+  .achievement-image img{
+    max-width: 250px;
+  }
+  /*News page ends*/
+
+}
+/*Between 1500 and 2000 Ends*/
+
+/*Greater than 2000 Starts*/
+@media only screen and (min-width: 2001px) {
+  /*About page starts*/
+  /*Section 1 starts*/
+    span.owner-description{font-size: 1.8em;}
+    span.owner-name{line-height:550px;font-size:6em;}
+    .management-text{font-size: 7em}
+    .circle{width:550px; height:550px;}
+    .social-circle{width:200px; height:200px;font-size:7em;}
+    .close-circle{width:100px; height:100px;}
+  /*Section 1 ends*/
+
+  /*Section 2 starts*/
+  .text-wrapper .bottom-text{font-size: 2.5em;}
+  span.slug{font-size: 2.6em;}
+  span.heading{font-size: 12em;}
+  /*Section 2 ends*/
+  /*About page ends*/
+
+  /*Work page start */
+    .work-circle{width:550px; height:550px;}
+      span.work-owner-name{line-height:550px;font-size:6em;}
+  /*Work page end */
+
+  /*News page starts*/
+  .news-slide .item{
+    font-size: 2.5em;
+  }
+
+  .achievement-image img{
+    max-width: 300px;
+  }
+  /*News page ends*/
+}
+/*Greater than 2000 Ends*/

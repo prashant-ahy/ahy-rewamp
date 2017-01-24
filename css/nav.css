@@ -1,0 +1,167 @@
+/* AHY CONSULTING NAVIGATION CSS
+*  THIS FILE CONTAINS CSS FOR HEADER AND FOOTER.
+*  DATED 31ST OCTOBER 2016
+*
+*/
+
+/*Header Css starts*/
+.navbar-custom{position: absolute; width: 100%; height: 13%; z-index: 99; margin: 0; background: #fff;background-image: url('images/download.gif'); border:none;}
+.nav-logo{margin: 7px 0px;cursor: pointer; display: inline-block;}
+ul.nav-links{margin: 15px;}
+ul.nav-links li {padding:0px 7px;}
+ul.nav-links li a {font-size: 21px; color:gray;}
+li.info{margin-top:10px;}
+ul.nav-links li a.info-link{width: 30px; height: 30px; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%; border: 1px solid rgba(255,255,255,.6); text-align: center; padding: 3px 0px;}
+/*Header Css ends*/
+
+/*Mobile Header Starts*/
+.mobile-menu{position: fixed; top: 12%; left: 0; width: 100%;height: 88%;background: black;z-index: 5;opacity: 0.9;}
+ul.mobile-nav{padding: 0; margin: 0; text-align: center;}
+ul.mobile-nav li{font-size: 2em; margin: 10px 0px;list-style: none;}
+ul.mobile-nav li a {color: #ec2d7e;}
+span.mobile-nav-info{    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ecece8;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+span.mobile-nav-info:before{
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 9px;
+}
+.mobile-info-wrapper{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #fff;
+  z-index: 100;
+  opacity: 0.9;
+}
+
+.info-description span{
+    display: block;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 10px 0px;
+}
+
+.info-description a{
+  color: #ec2d7e;
+}
+
+.info-social-icon span{
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+
+
+#nav-icon, #nav-icon-2{
+  width: 50px;
+  height: 45px;
+  margin: 10px auto;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+/*#nav-icon-2.custom-margin{
+  margin: 10px 15px;
+  float: right;
+}*/
+
+#nav-icon span ,#nav-icon-2 span{
+  display: block;
+  position: absolute;
+  height: 8px;
+  width: 100%;
+  background: #ec2d7e;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon span:nth-child(1), #nav-icon-2 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon span:nth-child(2), #nav-icon span:nth-child(3) , #nav-icon-2  span:nth-child(2), #nav-icon-2  span:nth-child(3) {
+  top: 18px;}
+
+#nav-icon span:nth-child(4), #nav-icon-2 span:nth-child(4) {
+  top: 36px;
+}
+
+#nav-icon.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon-2 span:nth-child(2){
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+#nav-icon-2 span:nth-child(3){
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+
+#nav-icon.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+/*Mobile Header Ends*/
+
+
+/*Footer css starts*/
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom:0;
+    left:0;
+    background: #fff;
+    background-image: url('images/download.gif');
+}
+/*Footer css ends*/
